@@ -26,7 +26,7 @@ def plot_space_comparison(file1, file2):
 def main():
     DATA_DIR = "D:\\study\\STEGO3"  # Замените на вашу директорию
     file1_path = os.path.join(DATA_DIR, "encryption.txt")
-    file2_path = os.path.join(DATA_DIR, "decoded_message.txt")
+    file2_path = os.path.join(DATA_DIR, "message.txt")
 
     plot_space_comparison(file1_path, file2_path)
 
